@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    /*background: url("https://source.unsplash.com/1600x900/?landscape&_gl=1*1it34am*_ga*MTYwNzUxNjIzLjE2ODAwNDU1NzA.*_ga_37GXT4VGQK*MTY4NTgxODc0NS4xMTYuMS4xNjg1ODE4NzQ2LjAuMC4w");*/
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./painel2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    /*centralizar e usando ele pode-se usar outras ferr. abaixo pra centralizar*/
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    /*distâcia entre os botões*/
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    /*só o display:flex vai deixar todos os elementos em uma linha só, 
+    entao usar os codigos abaixo pra colocar em colunas*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /*os botoes ficaram em coluna e como quero eles um do lado do outro, 
+    crie uma div no html pra isso*/
+    max-width: 150vh;
+    height: auto;
+}
+
+p {
+    font-family: 'Comic Neue', cursive;
+}
+
+.pontoHumano .pontoMaq .result {
+    font-family: 'Comic Neue', cursive;
+}
+
+button {
+    padding: 10px;
+    /*tamanho do botão*/
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    /*vai demorar 5segundos pra ficar opaco a cor do botao qdo o mouse passar*/
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#butrock #butpaper #buttes {
+    background-color: rgb(200, 202, 205);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#opMickey {
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    font: 100;
+    align-items: center;
+}
+
+#pontoH {
+    color: rgb(50, 50, 245);
+}
+
+#pontoM {
+    color: rgb(226, 86, 21);
+}
+
+.result {
+    color: red;
+    font-size: 20px;
+}
+
+container p {
+    min-width: 15px;
+    min-height: 15px;
+    width: auto;
+    height: auto;
+}
+
+input {
+    padding: 5px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./scripts.js"></script>
+
+    <title>Desafio JOKENPO</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>MICKEY PÔ</h1>
+        <br>
+        <p>Clique no botão abaixo para iniciar</p>
+
+        <div class="buttons">
+            <audio src="som.mp3"></audio>
+            <button id="butpedra" onclick="jogadaHumano('PEDRA')" type="buttonPedra"> <img src="./pedra.png" height="60"
+                    width="60" /></button>
+            <button id="butpapel" onclick="jogadaHumano('PAPEL')" type="buttonPapel"> <img src="./papel2.png"
+                    height="60" width="60" /></button>
+            <button id="buttes" onclick="jogadaHumano('TESOURA')" type="buttonTes"> <img src="./tesoura.png" height="60"
+                    width="60" /></button>
+        </div>
+        <br>
+
+        <p>Escolha do Mickey</p>
+        <input type="text" class="opMickey" value="" /><br>
+
+        <p class="pontoHumano">Sua Pontuação: <span id="pontoH">0</span></p>
+        <p class="pontoMickey">Pontuação do Mickey: <span id="pontoM">0</span></p><br>
+        <p class="result"></p>
+        <p class="result2"></p>
+    </div>
+
+</body>
+
+</html>
