@@ -7,7 +7,7 @@ Projeto em andamento, falta fazer o responsivo
 ## 🔨 Funcionalidades do projeto
 
   É sugerido três opções em botões onde o usuário escolhe um deles, após de forma aleatória é mostrado a opção do Mickey e abaixo eu ilustrei de uma forma animada o resultado da jogada.
-  Com gif´s animados é mostrado quando o usuário ganha o gif do Mickey bravo, quando o Mickey ganha um gif dele feliz e quando ocorre o empate ele sugere uma nova jogada.
+  Com gif´s animados é mostrado quando o usuário ganha o gif do Mickey bravo, quando o Mickey ganha um gif dele feliz e quando ocorre o empate ele sugere uma nova jogada. E consequência de cada jogada é somado os pontos para cada ganhador.
 
 ## ✔️ Tecnologias utilizadas
 
